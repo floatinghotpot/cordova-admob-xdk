@@ -9,15 +9,23 @@ Highlights:
 - [x] Most flexible, put banner at any position with overlap mode.
 - [x] Auto fit on orientation change.
 - [x] Latest iOS SDK v6.11.1, 
-- [x] Latest Android Google play services v19.
+- [x] Android Google play services r17, tested with Intel XDK.
 - [x] Easy-to-use APIs. Can display Ad with single line of Js code.
 - [x] Actively maintained, prompt support.
 
 More Cordova/PhoneGap plugins by Raymond Xie, [click here](http://floatinghotpot.github.io/).
 
 ## How to use? ##
+
 ```
-cordova plugin add com.google.cordova.admob
+cordova plugin add https://github.com/floatinghotpot/cordova-admob-xdk.git
+```
+
+If you it in Intel XDK, may input:
+```
+Name: AdMobPro
+plugin id: com.google.cordova.admob
+URL: https://github.com/floatinghotpot/cordova-admob-xdk.git
 ```
 
 ## Quick Start Example Code ##
